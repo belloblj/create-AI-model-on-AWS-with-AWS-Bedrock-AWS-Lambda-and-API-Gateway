@@ -5,6 +5,8 @@ AWS Lambda
 Amazon Bedrock
 Amazon API Gateway
 
+Basically, this is a ChatGPT-like service built on AWS.
+
 ## [Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
 Amazon Bedrock is a fully managed service that makes it easy to use foundation models from third-party providers and Amazon.
 
@@ -23,7 +25,10 @@ The other tools used are:
 + VS Code 
 * Postman
 
+# Reference
 Please check for the lambda function .py file which shows the command line
 The model parameter chosen is for the Cohere Command model for model14 and Boto3
+
+Check [here](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-cohere-command.html) to better get the Amazon Documentation for Cohere model used.
 
 Enjoy!!
